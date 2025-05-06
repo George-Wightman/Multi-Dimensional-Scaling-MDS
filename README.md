@@ -1,4 +1,4 @@
-Multidimensional Scaling (MDS) Scripts
+Multidimensional Scaling (MDS) Scripts.
        This repository contains R scripts used for analyzing behavioral similarity data using various MDS techniques, including INDSCAL, metaMDS, and smacofSym. All scripts operate on pairwise similarity ratings collected from participants and output MDS configurations for dimensionality reduction and visualization.
       
       Common Structure Across Scripts
@@ -67,7 +67,7 @@ Multidimensional Scaling (MDS) Scripts
         INDSCAL is ideal for identifying shared representational structure across participants.
         All scripts assume that Set1_Data and Set2_Data directories exist and contain the required CSV files
 
-Representational-Dissimilarity-Marticies and Mantel Tests
+Representational-Dissimilarity-Marticies and Mantel Tests.
       These scripts handle post-MDS matrix processing, including reordering, visualization, and statistical comparisons between dissimilarity structures using Mantel tests.
       
       MakeAndReorderRDMs.R
