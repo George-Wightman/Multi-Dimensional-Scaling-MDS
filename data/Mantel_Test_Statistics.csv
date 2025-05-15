@@ -1,0 +1,5 @@
+Comparison,Mantel Statistic (r),Significance (p),90% Quantile,95% Quantile,97.5% Quantile,99% Quantile,Number of Permutations
+Free Rated vs Abduction,0.753,0.001,0.0877,31154,0.1397,0.1709,999
+Free Rated vs Formidablness,0.6382,0.001,0.0808,0.1141,0.1416,0.1613,999
+Free Rated vs Friendliness,0.5488,0.001,0.075,0.0997,0.1295,0.1596,999
+Free Rated vs Planned,0.6528,0.001,0.0853,0.1079,0.1329,0.1692,999
