@@ -11,13 +11,6 @@ This repository showcases R scripts used in academic research analyzing behavior
 - **data/**: Holds example datasets.
 - **results/**: Stores example figures and result outputs.
 
-## Installation
-
-Ensure you have R installed. Required packages include:
-
-```R
-install.packages(c("smacof", "vegan", "tidyverse"))
-```
 
 ##  Script Use Notes
 
@@ -29,17 +22,6 @@ To understand the workflow:
 1. Review `scripts/sMDS-Scripts/MDS_smacofSym_smacof.R` or similar files.
 2. Examine the expected input structure and output logic.
 3. Adjust data and paths as needed to fit your setup.
-
-```R
-source("scripts/sMDS-Scripts/MDS_smacofSym_smacof.R")
-```
-
-##  Example
-
-The included scripts generate output such as MDS plots and dimensional solutions. Below is a sample of the kind of output generated:
-
-![INDSCAL Output](results/indscal_plot.png)
-
 
 ##  Contributing
 
