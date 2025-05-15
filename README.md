@@ -1,5 +1,5 @@
 
-# Multi-Dimensional Scaling (MDS) Toolkit for Action Perception
+# Multi-Dimensional Scaling (MDS) for Action Perception
 
 This repository showcases R scripts used in academic research analyzing behavioral similarity data through Multidimensional Scaling (MDS) techniques, including INDSCAL, metaMDS, and smacofSym. The scripts were developed for internal project use and are provided here to demonstrate coding proficiency, data analysis workflow, and statistical modelling in R.
 
