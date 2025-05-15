@@ -1,5 +1,54 @@
-Multidimensional Scaling (MDS) Scripts.
-       This repository contains R scripts used for analyzing behavioral similarity data using various MDS techniques, including INDSCAL, metaMDS, and smacofSym. All scripts operate on pairwise similarity ratings collected from participants and output MDS configurations for dimensionality reduction and visualization.
+
+# Multi-Dimensional Scaling (MDS) Toolkit for Action Perception
+
+This repository showcases R scripts used in academic research analyzing behavioral similarity data through Multidimensional Scaling (MDS) techniques, including INDSCAL, metaMDS, and smacofSym. The scripts were developed for internal project use and are provided here to demonstrate coding proficiency, data analysis workflow, and statistical modelling in R.
+
+> These scripts are not packaged as a standalone toolkit and may not run directly without modifications. They are shared for illustrative and portfolio purposes.
+
+##  Repository Structure
+
+- **scripts/**: Contains R scripts for different MDS analyses.
+- **data/**: Holds example datasets.
+- **results/**: Stores example figures and result outputs.
+
+## Installation
+
+Ensure you have R installed. Required packages include:
+
+```R
+install.packages(c("smacof", "vegan", "tidyverse"))
+```
+
+##  Script Use Notes
+
+These scripts were developed within the context of specific research projects. Input formats, file paths, and pre-processing steps may require adaptation. While the logic and structure are generalisable, scripts are intended as examples of analysis pipelines rather than turn-key solutions.
+
+### Running Scripts
+
+To understand the workflow:
+1. Review `scripts/sMDS-Scripts/MDS_smacofSym_smacof.R` or similar files.
+2. Examine the expected input structure and output logic.
+3. Adjust data and paths as needed to fit your setup.
+
+```R
+source("scripts/sMDS-Scripts/MDS_smacofSym_smacof.R")
+```
+
+##  Example
+
+The included scripts generate output such as MDS plots and dimensional solutions. Below is a sample of the kind of output generated:
+
+![INDSCAL Output](results/indscal_plot.png)
+
+
+##  Contributing
+
+This is a personal academic repository and is not actively maintained, but suggestions and improvements are welcome via pull request.
+
+##  Contact
+
+For questions or discussion, feel free to reach out: George Wightman — g.wightman@hotmail.co.uk
+
       
       Common Structure Across Scripts
       All scripts follow this shared workflow:
